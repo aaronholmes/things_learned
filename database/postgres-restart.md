@@ -8,6 +8,6 @@ Postgres has been installed on MacOS (Catalina) but cannot be connected to. Runn
 
 A crashed process may have left a rogue postmaster.pid file on the file system. Try clearing this and then starting Postgres:
 
-`brew services stop postgresql
-rm /usr/local/var/postgres/postmaster.pid 
-brew services start postgresql`
+  brew services stop postgresql
+  rm /usr/local/var/postgres/postmaster.pid 
+  brew services start postgresql
